@@ -43,22 +43,30 @@ cd smart-notes-ai
 ```
 
 2. Set Up the Backend
+```bash
 cd backend
 npm install
+```
 
 Create a .env file with the following content:
+```bash
 MONGO_URI=mongodb://localhost:27017/smart-notes-ai
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 
 Then run:
+```bash
 node index.js
+```
 
 Server runs on http://localhost:3001
 
 3. Set Up the Frontend
 
+```bash
 cd ../frontend
 npm install
 npm run dev
+```
 
 Frontend runs on http://localhost:3000
