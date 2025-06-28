@@ -20,9 +20,8 @@ Smart Notes AI is a full-stack web app that allows users to submit long-form not
 
 ## 🖼️ Demo Screenshot
 
-*(You can add a screenshot here once deployed)*
+---<img width="1160" alt="Screenshot 2025-06-27 at 11 03 11 PM" src="https://github.com/user-attachments/assets/e94447c1-da2a-4d45-bb51-d3b79ca2e1a3" />
 
----
 
 ## 📦 Tech Stack
 
@@ -38,9 +37,10 @@ Smart Notes AI is a full-stack web app that allows users to submit long-form not
 ## 🛠️ Local Development Setup
 
 1. Clone the repo
-
+```bash
 git clone https://github.com/yourusername/smart-notes-ai.git
 cd smart-notes-ai
+```
 
 2. Set Up the Backend
 cd backend
