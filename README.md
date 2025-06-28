@@ -39,7 +39,6 @@ Smart Notes AI is a full-stack web app that allows users to submit long-form not
 
 1. Clone the repo
 
-```bash
 git clone https://github.com/yourusername/smart-notes-ai.git
 cd smart-notes-ai
 
