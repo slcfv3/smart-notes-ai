@@ -2,6 +2,27 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import NoteCard from '../components/NoteCard';
 
+const textareaStyle = {
+  margin: "10px",
+  width: "70%",
+  height: "150px",
+  borderRadius: "3px",
+  border: "3px solid #11122b",
+  fontSize: "1.5rem",
+  fontFamily: "inherit",
+  color: "inherit",
+  padding: "1.5rem 2rem",
+};
+
+const btnStyle = {
+  backgroundColor: "#cea135",
+  color: "#11122b",
+  fontSize: "1.25em",
+  padding: "10px 25px",
+  border: "1px solid #cea135",
+  borderRadius: "2px"
+};
+
 const NotesPage = () => {
   const [notes, setNotes] = useState([]);
   const [input, setInput] = useState('');
@@ -33,10 +54,11 @@ const NotesPage = () => {
           className="w-full p-4 border rounded-lg"
           rows="5"
           value={input}
+          style={textareaStyle}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Type your note here..."
         />
-        <button type="submit" className="mt-2 px-4 py-2 bg-blue-600 text-white rounded">
+        <button type="submit" className="mt-2 px-4 py-2 bg-blue-600 text-white rounded" style={btnStyle}>
           Submit
         </button>
       </form>
